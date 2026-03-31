@@ -1,0 +1,39 @@
+main {
+  padding-block: 40px;
+
+  .container {
+    .right-content {
+      h3.price {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 3%;
+
+        span {
+          color: #a0a0a0;
+          font-weight: 400;
+          text-decoration: line-through;
+        }
+      }
+
+      .steps {
+        .icon-wrapper {
+          width: 56px;
+          height: 56px;
+          background-color: #f6f6f6;
+        }
+
+        p {
+          color: #717171;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 24px;
+
+          span {
+            color: var(--primary);
+          }
+        }
+      }
+    }
+  }
+}

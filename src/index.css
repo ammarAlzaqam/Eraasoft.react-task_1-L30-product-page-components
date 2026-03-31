@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import url(./css/header.css);
+@import url(./css/productDetails.css);
+@import url(./css/relatedProducts.css);
 
 :root {
   --primary: black;
@@ -33,4 +35,31 @@ a {
 
 a {
   text-decoration: none;
+}
+
+.btn {
+  padding-block: 1rem;
+
+  &.btn-dark {
+    background-color: var(--primary);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: var(--bg);
+    }
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.des {
+  color: #6c6c6c;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
 }
