@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer>
+    <footer data-aos="fade-in">
       <div className="container d-flex flex-column">
         <div className="top-content d-flex flex-column flex-lg-row align-items-center align-items-lg-start text-center text-lg-start">
           <div className="left col-12 col-lg-5 flex-shrink-1 d-flex flex-column align-items-center align-items-lg-start gap-4">

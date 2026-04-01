@@ -5,11 +5,15 @@ export default function ProductDetails() {
     <main>
       <div className="container d-flex flex-column flex-lg-row gap-5">
         <img
+          data-aos="fade-right"
           className="col-12 flex-shrink-1 col-lg-6 rounded-2"
           src={productImg}
           alt="main-product-img"
         />
-        <div className="right-content col-12 flex-shrink-1 col-lg-6 d-flex flex-column gap-4">
+        <div
+          data-aos="fade-left"
+          className="right-content col-12 flex-shrink-1 col-lg-6 d-flex flex-column gap-4"
+        >
           <h2 className="title">Apple iPhone 14 Pro Max</h2>
           <h3 className="price d-flex gap-3">
             $1399 <span>$1499</span>

@@ -33,8 +33,8 @@ export default function RelatedProducts() {
       <div className="container">
         <h3 className="mb-3 pb-3">Related Products</h3>
         <div className="products row g-3">
-          {productsImgs.map((p) => (
-            <ProductCard p={p} />
+          {productsImgs.map((p, i) => (
+            <ProductCard p={p} i={i} />
           ))}
         </div>
       </div>

@@ -6,7 +6,10 @@ import userIcon from "../assets/images/icons/header/user.svg";
 export default function Header() {
   return (
     <header className="bg-white py-4">
-      <div className="container d-flex justify-content-between align-items-center">
+      <div
+        data-aos="fade-down"
+        className="container d-flex justify-content-between align-items-center"
+      >
         <img src={logo} alt="logo-img" />
         <div className="search-input d-none d-lg-flex align-items-center gap-3 rounded-2">
           <svg
