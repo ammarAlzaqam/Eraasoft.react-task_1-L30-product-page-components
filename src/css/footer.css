@@ -1,0 +1,61 @@
+footer {
+  background-color: var(--bg);
+  padding-block: 104px;
+
+  @media (max-width: 991px) {
+    padding-block: 3rem;
+  }
+
+  .container {
+    gap: 24px;
+
+    @media (max-width: 991px) {
+      gap: 2rem;
+    }
+
+    .top-content {
+      gap: 113px;
+
+      @media (max-width: 992px) {
+        gap: 2rem;
+      }
+
+      .left {
+        p {
+          color: white;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 171%;
+        }
+      }
+
+      .mid,
+      .right {
+        h4 {
+          color: white;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 16px;
+        }
+
+        a {
+          color: var(--footer);
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 32px;
+        }
+      }
+    }
+
+    .bottom-media {
+      gap: 37px;
+
+      svg {
+        width: 16px;
+        @media (max-width: 991px) {
+          width: 24px;
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@
 @import url(./css/header.css);
 @import url(./css/productDetails.css);
 @import url(./css/relatedProducts.css);
+@import url(./css/footer.css);
 
 :root {
   --primary: black;

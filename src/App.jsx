@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import Header from "./components/mainHeader";
 import ProductDetails from "./components/productDetails";
 import RelatedProducts from "./components/relatedProducts";
@@ -8,6 +9,7 @@ export default function App() {
       <Header />
       <ProductDetails />
       <RelatedProducts />
+      <Footer />
     </>
   );
 }
